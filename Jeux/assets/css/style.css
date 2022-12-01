@@ -1,0 +1,36 @@
+body{
+    background-image: url('../img/morpion.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+h1{
+    color: #000 ;
+    font-size: 50px;
+    font-weight: bold;
+}
+#morpion{
+    display: inline-block;
+    background-color: black;
+    margin: 0 auto;
+    padding: 10px;
+}
+#morpion div{
+    margin: 0 auto;
+    overflow: hidden;
+}
+#morpion button{
+    width: 100px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 5px;
+    float: left;
+}
+#resultat{
+    color: #fff;
+    background: rgb(18, 189, 201);
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
